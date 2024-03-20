@@ -1,0 +1,7 @@
+body, header {
+    background-color: #303F50;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF !important;
+}

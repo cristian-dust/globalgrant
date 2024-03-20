@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <!-- BEGIN: SEO optimization -->
+    <meta name="description" content="Add a brief description of your webpage here.">
+    <meta name="keywords" content="Add,Your,Keywords,Here">
+    <!-- END: SEO optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Grant Inc.</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="d-flex flex-column" style="min-height: 100vh;">
+    <!-- BEGIN: Header -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <div class="row w-100 align-items-end"> <!-- Add align-items-end here -->
+                    <!-- Column 1 -->
+                    <div class="col-lg-6">
+                        <a class="navbar-brand" href="#">
+                            <img src="./images/company-logo.png" alt="Global Grant Incorporated Logo image">
+                        </a>
+                    </div>
+                    <!-- Column 2 -->
+                    <div class="col-lg-6  d-flex justify-content-end">
+                        <!-- Content for the second column goes here -->
+                        <div class="navbar-nav h-100 w-100" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink3" data-i18n="menu-home"></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="menu-portfolio"></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Submenu 1-1</a>
+                                        <a class="dropdown-item" href="#">Submenu 1-2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="menu-services"></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                        <a class="dropdown-item" href="#">Submenu 2-1</a>
+                                        <a class="dropdown-item" href="#">Submenu 2-2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink3" data-i18n="menu-about"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink3" data-i18n="menu-contact"></a>
+                                </li>
+                            </ul>
+                        </div>
+                         <!-- Language Selector -->
+                        <div class="dropdown mr-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="selected-language"></button>
+                            <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                                <a class="dropdown-item" href="#" data-lang="en">English</a>
+                                <a class="dropdown-item" href="#" data-lang="ro">Romana</a>
+                                <!-- Add more languages here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END: Header -->
+
+    <!-- BEGIN: Content Container -->
+    <div id="ajax-container" class="container-fluid flex-grow-1 bg-white">
+        <p data-i18n="key"></p>
+    </div>
+    <!-- END: Content Container -->
+
+    <!-- BEGIN: Footer -->
+    <footer class="footer mt-auto">
+        <div class="container">
+            <span class="text-muted">footer to be inserted</span>
+        </div>
+    </footer>
+    <!-- END: Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/i18next@21.6.3/i18next.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/1.2.1/jquery-i18next.min.js" integrity="sha512-79RgNpOyaf8AvNEUdanuk1x6g53UPoB6Fh2uogMkOMGADBG6B0DCzxc+dDktXkVPg2rlxGvPeAFKoZxTycVooQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/index.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
